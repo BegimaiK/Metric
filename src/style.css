@@ -4,39 +4,40 @@
     box-sizing: border-box;
 }
 header {
-    width:1440px;
+    width:1140px;
     margin:0 auto;
 }
-.wrapper {
-    display:flex;
-    justify-content:space-between;
-    padding:17px 170px;
+.container-xl {
+    width:960px;
     margin:0 auto;
+    display:flex;
+    justify-content:space-between; 
+}
+.logo {
+   padding-left:25px;
 }
 .nav {
     display:flex;
     justify-content:space-between;
-    padding:26px 180px;
+    padding:26px 30px;
     
 }
 .nav-item {
     list-style-type: none;
-    
+    padding-left:60px;
 }
 .nav-link {
     text-decoration:none;
     font-size:15px;
     line-height: 22px;
     color:#222222;
-    padding-left:30px;
-    
 }
 .main{
     background-image: url("../src/img/IMAGE\ \(2\).svg");
-    padding-top:30px;
-    
+    padding-top:30px;  
 }
 .main-page {
+    width:960px;
     height:431px;
     display: flex;
     justify-content:space-around;
@@ -44,15 +45,20 @@ header {
 }
 .main-text {
     color:#FFFFFF; 
-    padding-left: 80px;
-    
+    padding-right:80px;
+    padding-left:125px;  
 }
 .main-title {
+    width:412px;
+    height:88px;
     font-size: 38px;
     font-weight:400;
     line-height:44px; 
+
 }
 .main-description {
+    width:425px;
+    height:78px;
     font-size:20px;
     line-height:26px;
     padding-top:30px;
@@ -60,6 +66,8 @@ header {
 .main-links {
     display:flex;
     justify-content:space-between;
+    padding-top:50px;
+    padding-right:200px;
 
 }
 .main-btn {
@@ -75,24 +83,145 @@ header {
     color:#000000;
     font-weight:400;
     list-style-type: none;
+    padding-top:15px;
 }
 .main-img {
-    width:120px;
-    height:88px;
-    padding-right: 35px;
+    width:110px;
+    height:78px;
 }
 .press {
-    background-color: #3E5C50;
-      
+    width:1265px;
+    height:145px;
+    background-color: #3E5C50;  
+    
+}
+.press-items {
+    width:940px;
+    height:77px;
+    align-items:center;
 }
 .press-text {
     font-size:15px;
     font-weight:400;
     line-height:22px;
     text-align: center;
+    padding-top:25px;
 }
 .press-companies {
     display:flex;
-    justify-content:space-between;
-}
+    justify-content:space-around; 
+    padding-top:25px; 
 
+}
+.devices {
+    width:918;
+    height:940px;
+    background-color:#FFFFFF;
+    color:#333333;
+}
+.device-title {
+    text-align: center;
+    font-size:29px;
+    font-weight: normal;
+    line-height:32px;
+    padding-top:45px;
+    padding-left:100px;
+    
+}
+.device-description {
+    display:flex;
+    justify-content:space-between;
+    
+
+}
+.device-exp {
+    font-size:19px;
+    font-weight:normal;
+    line-height:22px;
+    padding-top:20px;
+    padding-left:245px;
+}
+.device-frame {
+    padding-top:20px;
+    align-items: flex-end;
+}
+.web-application {
+    display:flex;
+    justify-content:space-between;
+    padding-top:45px;
+}
+.web-img {
+    width:460px;
+    height:263px;
+    
+}
+.web-text {
+    padding-top:35px;
+}
+.web-pic {
+    padding-bottom:25px;
+}
+.web-title {
+    font-size:22px;
+    line-height:30px;
+    font-weight:normal;
+    padding-bottom:20px;
+}
+.web-text {
+    font-size:16px;
+    line-height:22px;
+    font-weight:normal;
+    width:389px;
+    height:66px;
+}
+.app {
+    display: flex;
+    justify-content:space-between;
+    padding-top:20px;
+}
+.app-title {
+    font-size:22px;
+    line-height:30px;
+    padding-top:15px;
+}
+.app-text {
+    font-size:16px;
+    line-height:22px;
+    padding-top:15px;
+
+}
+.information {
+    display:flex;
+    justify-content:space-between;
+    padding-top:50px;
+}
+.info-title {
+    padding-top:20px;
+    font-size:21px;
+    font-weight:400;
+    line-height:30px;
+}
+.info-description {
+    width:198px;
+    height:88px;
+    font-size:15px;
+    font-weight:normal;
+    line-height:22px;
+    padding-top:35px;
+}
+.price {
+    background-color:#DDE7ED;
+}
+.price-title {
+    text-align:center;
+    color:#333333;
+}
+.price-theme {
+    font-size:29px;
+    line-height:36px;
+    padding-top:50px;
+}.price-description {
+    font-size:19px;
+    line-height:22px;
+    padding-top:20px;
+}
